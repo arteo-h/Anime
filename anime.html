@@ -1,0 +1,206 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times;
+  padding: 4px;
+  background: black;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: goldenrod;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:brown;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:brown;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: black;
+  padding-left: 15px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color:powderblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: orangered;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1257px 2212px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+ <font face="Times" size="4" color="black">
+  <h1>Anime Watchers</h1></font>
+  
+  <font face="Verdana" size="4" color="blue">
+  <p><marquee>Free anime of all types!</marquee></p></font>
+  <iframe src="all.jpg" style="border:3px solid red;height:460px;width:1080px;"></iframe>	
+</div>
+
+<div class="topnav">
+  <a href="https://www.crunchyroll.com">Crunchyroll</a>
+  <a href="https://www1.gogoanime.ai">GoGoAnime</a>
+  <a href="https://www.kiss-anime.ws/?__cf_chl_jschl_tk__=d1bb3da95912088345d31d1863dcda326121852d-1618238118-0-AS98TKAI1Ehn0pVD8--1Jee3qxqwiYIbApc5L1Plpc0CLSDn1wY3c_uccOs3ub0yK7yWb1cH8QixciivcsCTWKkgt7WjK53-4KH-fPwtsigy5La2BjuZCpA2GDK5I5AcfxaCOtqPF4Wjv-T1agC-j5gOtHXh_0Afy8tOZ2Md_kts7DlheCuFxz1GLrJTD3bnU1dtnM41NKNW1Hr1CmYdhBQHjgsAm1Skp41jSZVmvMAcUJzqzBFowwFVYoq0Cq3bRkfS3OP-RiWXnaw-yDRigz2iXD80hhc5H9M5UjhydCVF-6eOqcetb8ZIaYUoWWBWUVAo2D_j2lBmB24XPTGQnYkE5QkTskw7Iu6-q6DaBR4oNvCKe3GvztGNCpKX-32n6Q">KissAnime</a>
+  <a href="https://9anime.zone" style="float:right">9anime</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font face="Verdana" size="4" color="black">
+      <h2>AOT</h2>
+      <h5>Final Season</h5></font>
+      
+      <marquee>
+      <img src="1.jpeg" alt="1" width="440" height="290" >
+      <img src="2.jpg" alt="2" width="440" height="290">
+	  <img src="3.jpg" alt="3" width="440" height="290"> 
+	  <img src="4.jpg" alt="4" width="440" height="290">
+	  <img src="5.jpg" alt="5" width="440" height="290">      
+      </marquee>
+    
+	  <audio controls>
+  		<source src="AOT.mp3" type="audio/mp3">
+	  </audio>
+  	  <audio controls>
+  		<source src="AOT1.mp3" type="audio/mp3">
+	  </audio>
+
+      <p><blockquote>Attack on Titan (Japanese: 進撃の巨人, Hepburn: Shingeki no Kyojin, lit. "The Attack Titan") is a Japanese manga series written and illustrated by Hajime Isayama. It is set in a world where humanity lives inside cities surrounded by three enormous walls that protect them from the gigantic man-eating humanoids referred to as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown and the death of his mother. Attack on Titan was serialized in Kodansha's monthly Bessatsu Shōnen Magazine from September 2009 to April 2021 and has been collected into 33 tankōbon volumes as of January 2021.</blockquote></p>
+    </div>
+    <div class="card">
+      <h3>Black Clover</h3>
+      <h4>World Magic</h4>
+      
+      <iframe src="black.jpeg" width="650px" height="300px">
+      </iframe>
+      
+      <p><blockquote>Black Clover (Japanese: ブラッククローバー, Hepburn: Burakku Kurōbā) is a Japanese manga series written and illustrated by Yūki Tabata. The story centers around Asta, a young boy seemingly born without any magic power, something that is unknown in the world he lives in. With his fellow mages from the Black Bulls, Asta plans to become the next Wizard King. It has been serialized in Shueisha's Weekly Shōnen Jump magazine since February 2015, and has been collected into 28 tankōbon volumes as of April 2021.
+		 </blockquote></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+
+       <font face="Verdana" size="4" color="black">
+       <h3>Trailer</h3></font>
+       
+       <iframe width="300" height="200" src="https://www.youtube.com/watch?v=ZefrVAetxVI" 
+       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+       picture-in-picture" allowfullscreen></iframe>
+       
+       <embed src="aotlogo.jfif" width="200" height="100">
+      
+    </div>
+    <div class="card">
+      <h3>Login</h3>
+      
+      
+		<img src="logo.png" width="200" height="200">
+		<h1 align="justified" style="font-size: 30px"> Please Login </h1>
+		<form>
+			<p> Username: </p>
+			<input type="text" name="" placeholder="Name">
+			<p> Password: </p>
+			<input type="Password" name="" placeholder="Password">
+			<br>
+		</form>
+		<div class="submit"><p align="center"><a href="Anime.html"> Submit </a></p></div>
+
+  
+    </div>
+    <div class="card">
+      <h3> Fast access</h3>
+      <ul>
+		<li><a href="AnimeWatchers.html"> Home </a></li>
+		<li><a href="https://www.crunchyroll.com"> Chrunchyroll </a></li>
+		<li><a href="https://9anime.zone"> 9anime </a></li>
+		<li><a href="login1.html"> Login Page </a></li>		
+	 </ul>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <h2> WE WORK FOR YOUR PLEASURE </h2>  
+</div>
+
+</body>
+</html>

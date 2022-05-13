@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Log in </title>
+	<style type="text/css">
+		body
+		{
+			margin: 0px;
+			padding: 0px;
+			background-image:url('purple.jpg');
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+		}
+		.loginbox
+		{
+			width: 360px;
+			height: 540px;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+            background-image: url('blue.jpg');
+			color: grey;
+			box-sizing: border-box;
+			transform: translate(-50%,-50%);
+			padding: 70px 30px;
+		}
+		.avatar
+		{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			left: 100px;
+			top: -50px;
+			position: absolute;
+		}
+		.loginbox p
+		{
+			margin: 0;
+			padding: 0;
+			font-style: bold;
+		}
+		.loginbox input
+		{
+			width: 100%;
+			margin-bottom: 10%;
+		}
+		.submit
+		{
+			margin-top: 20px;
+			padding: 10px;
+			width: 100px;
+			height: 30px;
+			font-size: 20px;
+			background-color: orangered;
+			color: red;
+			position: absolute;
+			left: 100px;
+			border-radius: 50%;
+		}
+		.submit:hover
+		{
+			background-color: yellowgreen;
+		}
+	</style>
+</head>
+<body>
+	<audio src="slide.mp3" controls="" autoplay="" style="width: 200px; height: 40px; position: absolute;padding-top: 30px; padding-left: 30px"></audio>
+	<div class="loginbox">
+		<img src="avatar.png" class="avatar">
+		<h1 align="center" style="font-size: 25px"> Login Here </h1>
+		<form>
+			<p> Username: </p>
+			<input type="text" name="" placeholder="Name">
+			<p> Password: </p>
+			<input type="Password" name="" placeholder="Password">
+			<br>
+		</form>
+		<div class="submit"><p align="center"><a href="SportCars.html"> Submit </a></p></div>
+	</div>
+</body>
+</html>
